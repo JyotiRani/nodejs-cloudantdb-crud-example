@@ -1,7 +1,6 @@
 declared-services:
   cloudant-nodejs:
-    label: cloudantNoSQLDB
-    plan: Shared
+    label: cloudantNoSQLDB    
 applications:
 - path: .
   memory: 256M
